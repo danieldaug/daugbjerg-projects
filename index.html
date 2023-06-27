@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Daniel Daugbjerg's Portfolio
+        </title>
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    
+    <body>
+        <!--Website Tile and Resume PDF link-->
+        <header align="center">
+            <span id="title" align="left">
+                <b>Daniel Daugbjerg's Portfolio</b>
+            </span>
+            <span id="resume" align="right">
+                <a href="Daugbjerg_Resume.pdf">
+                    <button id="resumebutton">Resume</button>
+                </a>
+            </span>
+            <!--Spacing-->
+            <pre>
+
+            </pre>
+        </header>
+        
+        <!--Nav bar for each section of page-->
+        <nav align="center">
+            <table align="center">
+                <td class="navoption">
+                    <a href="#pagetitle"><button class="navbutton" type="button">Home</button></a>
+                </td>
+                <td class="navoption">
+                    <a href="#aboutmesection"><button class="navbutton" type="button">About Me</button></a>
+                </td>
+                <td class="navoption">
+                    <a href="#projectsection"><button class="navbutton" type="button">Projects</button></a>
+                </td>
+            </table>
+        </nav>
+
+        <!--Welcome section containing welcome text and profile picture-->
+        <section id="welcomesection" align="center">
+            <div class="welcome">
+                <p>
+                    <h1>Hello! I'm Daniel Daugbjerg</h1>
+                </p>
+                <p>
+                    <h3>Welcome To My Project Portfolio!</h3>
+                </p>
+            </div>
+            <div class="welcome">
+               <img align="center" class="welcome" src="src/img/profile.png">
+            </div>
+        </section>
+
+        <!--About Me section with background information and another picture-->
+        <section align="center">
+            <p><h2 id="aboutmesection">About Me</h2></p>
+            <div class="about">
+                <p class="aboutparagraph">
+                    I am a student majoring in computer science at the University of 
+                    San Diego in the graduating class of 2025. I am originally from Marin
+                    County in the Bay Area.
+                </p>
+                <p class="aboutparagraph">
+                    My strongest programming languages are Java, Python, and C. I am
+                    also familiar with HTML, CSS, and JavaScript, which were used to 
+                    create this portfolio. I have always had a great interest in 
+                    creative thinking and problem-solving, making computer science
+                    a significant part, not only in my academics, but
+                    in my personal life and hobbies as well, which is showcased in my
+                    projects.
+                </p>
+            </div>
+            <div class="about">
+                <img src="src/img/aboutme.jpg" class="about">
+            </div>
+        </section>
+        
+        <!--Project section showcasing each project with a description, image, and link
+        to source code-->
+        <section>
+            <p><h2 id="projectsection">Projects</h2></p>
+            <p id="projectintro">
+                Here are some projects that showcase my skills and what I've accomplished
+                as a programmer so far. Their source code is provided using Github and my Github profile
+                is linked at the bottom of the page.
+            </p>
+
+            <table align="center">
+                <!--First Project Showcased-->
+                <tr class="project">
+                    <!--Name and link-->
+                    <td class="projectcell">
+                        <p>2D Videogame Demo with Godot</p>
+                        <a href="https://github.com/danieldaug/VideogameDemo">
+                            <button class="projectbutton">Source Code</button>
+                        </a>
+                    </td>
+                    <!--Description-->
+                    <td class="projectcell projectdescription">
+                        <p>
+                            Basic 2D game including original animated sprites that collide,
+                            interact with each other, and take in user input. Built with the
+                            Godot Game Engine, coded with GDscript (similar to Python), and
+                            tested with Godot Unit Test extension.
+                        </p>
+                    </td>
+                    <!--Image-->
+                    <td>
+                        <img src="src/img/videogame.png" class="projectimg">
+                    </td>
+                </tr>
+                <!--Second Project Showcased-->
+                <tr class="project">
+                    <td class="projectcell">
+                        <p>Wordle with Tkinter</p>
+                        <a href="https://github.com/danieldaug/Wordle">
+                            <button class="projectbutton">Source Code</button>
+                        </a>
+                    </td>
+                    <td class="projectcell projectdescription">
+                        <p>
+                            Game replicating the popular game, Wordle, with Python and the Python 
+                            GUI, Tkinter. Built using VSCode.
+                        </p>
+                    </td>
+                    <td>
+                        <img src="wordleimg.png" class="projectimg">
+                    </td>
+                </tr>
+                <!--Third Project Showcased-->
+                <tr class="project">
+                    <td class="projectcell">
+                        <p>Queue Buffer Model Using Semaphores</p>
+                        <a href="https://github.com/danieldaug/Queue-Buffer">
+                            <button class="projectbutton">Source Code</button>
+                        </a>
+                    </td>
+                    <td class="projectcell projectdescription">
+                        <p>
+                            Simple C program which uses semaphores in order to send signals that allow 
+                            an enqueue and dequeue action for values through a buffer limited to holding 30 values.
+                        </p>
+                    </td>
+                    <td>
+                        <img src="src/img/queuebufferimg.png" class="projectimg">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!--Footer containing Github logo image that links to my Github profile-->
+        <footer id="footer" align="center">
+            <a href="https://github.com/danieldaug?tab=repositories"><button class="footerbutton">
+                <img id="githublogo" src="src/img/githublogo.png">
+            </button></a>
+        </footer>
+    </body>
+</html>

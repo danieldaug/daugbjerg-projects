@@ -1,0 +1,166 @@
+/*-----General Stylizations-----*/
+:root{
+    /*Color Variables*/
+    --accent-color: #15206d;
+    --primary-color: #5b8eee;
+    --secondary-accent-color: #eef9ff;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--primary-color);
+}
+/*-------------------------------*/
+
+/*-----Top Bar-----*/
+#title{
+    float: left;
+    font-size: 20px;
+    color: var(--accent-color);
+    padding: 5px 10px 10px;
+}
+#resume{
+    float: right;
+    margin: 0;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+#resumebutton{
+    border: none;
+    background-color:var(--accent-color);
+    color: var(--secondary-accent-color);
+    font-size: 15px;
+    transition-duration: 0.3s;
+    border-radius: 20px;
+    padding: 7px 7px 7px;
+}
+#resumebutton:hover{
+    background-color:var(--secondary-accent-color);
+    color:var(--primary-color);
+}
+/*-----Nav Bar-----*/
+nav{
+    display: block;
+    background-color: var(--primary-color);
+}
+.navoption{
+    padding: 10px 50px 10px;
+}
+.navbutton{
+    border: none;
+    background-color:var(--accent-color);
+    color: var(--secondary-accent-color);
+    font-size:20px;
+    padding: 10px 10px 10px;
+    transition-duration: 0.3s;
+    border-radius: 20px;
+}
+.navbutton:hover{
+    background-color:var(--secondary-accent-color);
+    color:var(--primary-color);
+}
+/*-----Welcome Section-----*/
+#welcomesection{
+    background-image: url('../img/welcomebackground.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome{
+    display:inline-block;
+    height: 400px;
+    margin: auto;
+    padding: 25px 50px 25px;
+}
+h1{
+    font-size: 30px;
+    color: var(--secondary-accent-color);
+    background-color: var(--accent-color);
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+h3{
+    font-size: 20px;
+    background-color: var(--accent-color);
+    color: var(--secondary-accent-color);
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+/*-----About Me Section-----*/
+.about{
+    display: inline-block;
+    height: 350px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    vertical-align: middle;
+}
+.aboutparagraph{
+    color: var(--secondary-accent-color);
+    white-space: pre-line;
+}
+h2{
+    text-align:center;
+    background-color: var(--accent-color);
+    color: var(--secondary-accent-color);
+}
+/*-----Project Section-----*/
+.project{
+    background-color: var(--accent-color);
+    border-radius: 20px;
+}
+#projectintro{
+    color: var(--secondary-accent-color);
+    margin: auto;
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 30px;
+}
+.projectcell{
+    padding: 25px 25px 25px;
+    border-radius: 10px;
+    color: var(--secondary-accent-color);
+}
+.projectdescription{
+    font-size: 14px;
+}
+.projectbutton{
+    border: none;
+    background-color:var(--secondary-accent-color);
+    color: var(--accent-color);
+    font-size:15px;
+    padding: 7px 7px 7px;
+    transition-duration: 0.3s;
+    border-radius: 20px;
+}
+.projectbutton:hover{
+    background-color:var(--primary-color);
+    color:var(--secondary-accent-color);
+}
+.projectimg{
+    height:250px;
+    display: block;
+    margin: auto;
+}
+/*-----Footer Section-----*/
+#footer{
+    margin-top: 25px;
+    background-color: var(--primary-color);
+    color: var(--secondary-accent-color);
+}
+#githublogo{
+    height: 25px;
+}
+.footerbutton{
+    border: none;
+    background-color:var(--primary-color);
+    color: var(--accent-color);
+    font-size:15px;
+    padding: 7px 7px 7px;
+    transition-duration: 0.3s;
+    border-radius: 20px;
+    margin: 10px 10px 10px;
+}
+.footerbutton:hover{
+    background-color:var(--secondary-accent-color);
+    color:var(--secondary-accent-color);
+}

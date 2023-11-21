@@ -4,6 +4,7 @@
     --accent-color: #15206d;
     --primary-color: #5b8eee;
     --secondary-accent-color: #eef9ff;
+    
 }
 body{
     margin: 0;
@@ -41,7 +42,7 @@ body{
 /*-----Nav Bar-----*/
 nav{
     display: block;
-    background-color: var(--primary-color);
+    background-image: linear-gradient(180deg, #5b8eee 70%, #4264b4);
 }
 .navoption{
     padding: 10px 50px 10px;
@@ -100,24 +101,24 @@ h3{
 }
 h2{
     text-align:center;
-    background-color: var(--accent-color);
+    background-image: radial-gradient(circle, #15206d 50%,#5b8eee);
     color: var(--secondary-accent-color);
 }
 /*-----Project Section-----*/
 .project{
-    background-color: var(--accent-color);
+    background-image: linear-gradient(180deg, #15206d, #5b8eee);
     border-radius: 20px;
 }
 #projectintro{
-    color: var(--secondary-accent-color);
     margin: auto;
     text-align: center;
     white-space: pre-line;
     margin-bottom: 30px;
+    color: var(--secondary-accent-color)
 }
 .projectcell{
     padding: 25px 25px 25px;
-    border-radius: 10px;
+    border-radius: 10px;    background-image: linear-gradient(180deg, #15206d, #5b8eee);
     color: var(--secondary-accent-color);
 }
 .projectdescription{
@@ -125,15 +126,15 @@ h2{
 }
 .projectbutton{
     border: none;
-    background-color:var(--secondary-accent-color);
-    color: var(--accent-color);
+    background-color:var(--primary-color);
+    color: var(--secondary-accent-color);
     font-size:15px;
     padding: 7px 7px 7px;
     transition-duration: 0.3s;
     border-radius: 20px;
 }
 .projectbutton:hover{
-    background-color:var(--primary-color);
+    background-color:var(--accent-color);
     color:var(--secondary-accent-color);
 }
 .projectimg{
@@ -148,7 +149,7 @@ h2{
     color: var(--secondary-accent-color);
 }
 #githublogo{
-    height: 25px;
+    height: 40px;
 }
 .footerbutton{
     border: none;

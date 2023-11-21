@@ -39,6 +39,9 @@ body{
     background-color:var(--secondary-accent-color);
     color:var(--primary-color);
 }
+.resumeandrecommendationsbutton:active{
+    transform: scale(0.96);
+}
 /*-----Nav Bar-----*/
 nav{
     display: block;
@@ -59,6 +62,9 @@ nav{
 .navbutton:hover{
     background-color:var(--secondary-accent-color);
     color:var(--primary-color);
+}
+.navbutton:active{
+    transform: scale(0.96);
 }
 /*-----Welcome Section-----*/
 #welcomesection{
@@ -137,6 +143,9 @@ h2{
     background-color:var(--accent-color);
     color:var(--secondary-accent-color);
 }
+.projectbutton:active{
+    transform: scale(0.96);
+}
 .projectimg{
     height:250px;
     display: block;
@@ -164,4 +173,7 @@ h2{
 .footerbutton:hover{
     background-color:var(--secondary-accent-color);
     color:var(--secondary-accent-color);
+}
+.footerbutton:active{
+    transform: scale(0.96);
 }

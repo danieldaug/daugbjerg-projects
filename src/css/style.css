@@ -74,7 +74,8 @@ nav{
 }
 .welcome{
     display:inline-block;
-    height: 400px;
+    height: auto;
+    max-height: 400px;
     margin: auto;
     padding: 25px 50px 25px;
 }
@@ -91,6 +92,12 @@ h3{
     color: var(--secondary-accent-color);
     padding: 5px 5px 5px;
     border-radius: 10px;
+}
+.profileimg{
+    border-radius: 5%;
+    border: 7px solid #15206d;
+    width: auto;
+    max-width: 400px;
 }
 /*-----About Me Section-----*/
 .about{
@@ -109,6 +116,12 @@ h2{
     text-align:center;
     background-image: radial-gradient(circle, #15206d 50%,#5b8eee);
     color: var(--secondary-accent-color);
+}
+.aboutimg{
+    border-radius: 5%;
+    border: 5px solid #15206d;
+    max-height: 350px;
+    height: auto;
 }
 /*-----Project Section-----*/
 .project{

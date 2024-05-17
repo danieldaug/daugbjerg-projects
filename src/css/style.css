@@ -152,6 +152,7 @@ h2{
     padding: 7px 7px 7px;
     transition-duration: 0.3s;
     border-radius: 20px;
+    margin: 5px;
 }
 .projectbutton:hover{
     background-color:var(--accent-color);
